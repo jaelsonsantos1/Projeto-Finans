@@ -1,0 +1,18 @@
+#home {
+    /* #FFBE0E */
+    background-color: #FFBE0E !important;
+    color: #FFFFFF;
+}
+
+.espacamento {
+    padding: 60px 0;
+}
+
+.borda {
+    border-bottom: 1px solid #e5e5e5; 
+}
+
+.link {
+    color: #605d5d;
+    text-decoration: none;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Apex Financeira - Finaças pessoais</title>
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+            <div class="container   container-fluid" style="border-bottom: 2px solid #FFFFFF;">
+                <!-- LogoMarca Finances -->
+                <a href="" class="navbar-brand">
+                    <img src="img/logo.png" width="150px" alt="Imagem que mostra a logomarca do site Finances.">
+                </a>
+    
+                <!-- Botão que deixará a barra de navegação responsiva -->
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegation-bar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- Criando os botões de menu da barra de navegação -->
+                <!-- class="collapse navbar-collapse" id="navegationBar" -->
+                <div class="collapse navbar-collapse" id="navegation-bar">
+                    <ul class="navbar-nav d-flex align-items-center ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Recursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Benefícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Preços</a>
+                        </li>
+                        <li>
+                            <a href="" class="btn btn-outline-light">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo incial do site -->
+    <section id="home">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <!-- Título principal -->
+                        <h1 class="display-4 text-light">
+                            Suas contas, descomplicadas
+                        </h1>
+                        <!-- Texto infomativo -->
+                        <p class="lead text-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis consectetur sint dignissimos maxime in, mollitia labori
+                        </p>
+
+                        <!-- Campo para inseriri o email -->
+                        <form class="my-4">
+                            <div class="input-group input-group-lg">
+                                <input class="form-control rounded-start-2" type="email" placeholder="Digite seu email">
+                                <button type="button" class="btn btn-primary">Cadastrar-se</button>
+                            </div>
+                        </form>
+                        <div>
+                            <p class="lead text-light align-self-center">Disponível para 
+                                <a class="btn btn-outline-light" href="#">
+                                    <i class="fa-brands fa-android fa-lg"></i>
+                                </a>
+                                <a class="btn btn-outline-light" href="#">
+                                    <i class="fa-brands fa-apple fa-lg"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img src="img/capa-mulher.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>   
+
+    <section class="espacamento">
+        <div class="container borda">
+            <div class="row align-items-center my-5">
+                <div class="col-md-6">
+                    <h1>
+                        Saiba para onde vai o seu dinheiro
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla provident doloribus, necessitatibus pariatur incidunt labore cons
+                    </p>
+                    <button class="btn btn-primary" type="button">Veja mais</button>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid" src="img/saiba.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="espacamento">
+        <div class="container borda">
+            <div class="row align-items-center my-5">
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid" style="max-height: 500px;" src="img/juros.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h1>
+                        Pare de pagar juros e economize
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla provident doloribus, necessitatibus pariatur incidunt labore cons
+                    </p>
+                    <button class="btn btn-primary" type="button">Veja mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="espacamento">
+        <div class="container borda">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="img/facil.png" alt="">
+                    <h4>Fácil de usar</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nemo dolores soluta quasi tenetur</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="img/economize.png" alt="">
+                    <h4>Economize seu tempo</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nemo dolores soluta quasi tenetur</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="img/suporte.png" alt="">
+                    <h4>Suporte amigo</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nemo dolores soluta quasi tenetur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <p>
+                        <a class="link mx-2 my-1 " href="#">Home</a>
+                        <a class="link mx-2 my-1 " href="#">Recursos</a>
+                        <a class="link mx-2 my-1 " href="#">Benefícios</a>
+                        <a class="link mx-2 my-1 " href="#">Preços</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12 d-flex justify-content-end">
+                    <a class="text-dark me-3" href="#">
+                        <i class="fa-brands fa-facebook fa-2xl"></i>
+                    </a>
+                    <a class="text-dark me-3" href="#">
+                        <i class="fa-brands fa-instagram fa-2xl"></i>
+                    </a>
+                    <a class="text-dark" href="#">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</body>
+</html>
